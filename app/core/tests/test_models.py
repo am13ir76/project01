@@ -37,6 +37,5 @@ class ModelTests(TestCase):
             email='django@gmail.com',
             password='pass123'
         )
-
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
